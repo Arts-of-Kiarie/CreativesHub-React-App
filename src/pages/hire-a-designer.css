@@ -1,0 +1,43 @@
+.title{
+    background-image: url();   /* put the background image here: */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h2{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.label-title{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border: 1px solid black; /* change this to your primary color */
+}
+
+.form-check-input:focus{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.timeline,
+.role{
+    display: flex;
+    gap: 20px;
+}

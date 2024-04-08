@@ -1,0 +1,98 @@
+footer{
+    background-color: var(--dark-green);
+ 
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer{
+    color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        padding: 30px 0px 0px 0px;
+        margin-bottom: -40px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: var(--light-green);
+}
+
+.footer h3{
+    font-size: 24px;
+}
+
+
+
+.footer .logo-details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-right: 10px;
+}
+
+.logo-details a, .logo-details span{
+    display: flex;
+    gap: 5px;
+}
+
+.logo-details .description{
+    padding-bottom: 20px;
+}
+.footer .useful-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+
+.footer .support{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
+.support 
+
+.social-media a{
+   height: 80px;
+   gap: 5px;
+   color: blue;
+   font-size: 50px;
+}
+
+.social-media .soc-icons{
+    display: flex;
+    gap: 10px;
+}
+
+.footer .hr{
+    color: white;
+}
+
+footer .copyright{
+    color: white;
+   padding: 10px;
+   text-align: center;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    visibility: none;
+    opacity: 0;
+}
+
+.back-to-top.active{
+    visibility: visible;
+    opacity: 1;
+}
+
